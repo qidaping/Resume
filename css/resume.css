@@ -154,7 +154,7 @@ body {
   text-decoration: underline;
 }
 .re-left .re-progress {
-  margin: 8px 0;
+  margin: 5px 0;
 }
 .re-left .re-progress span {
   display: inline-block;
@@ -264,7 +264,6 @@ body {
   -webkit-animation: webpack-move 1.5s;
 }
 .re-left .re-ewm-box {
-  margin-top: 15px;
   padding: 20px 10px;
 }
 .re-left .re-ewm {
@@ -275,7 +274,7 @@ body {
   width: 100%;
 }
 .re-prifile img {
-  width: 138px;
+  width: 125px;
   margin: 15px;
   border: 5px solid #fff;
   border-radius: 50%;
@@ -300,13 +299,13 @@ body {
   vertical-align: middle;
 }
 .re-l-box .re-top {
-  margin-top: 30px;
+  margin-top: 5px;
   padding: 5px 0;
   border-bottom: 1px dotted #fff;
   font-size: 20px;
 }
 .re-l-box .re-content {
-  padding: 10px 0;
+  padding: 6px 0;
   font-size: 16px;
   line-height: 26px;
 }

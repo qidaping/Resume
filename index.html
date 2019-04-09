@@ -13,7 +13,7 @@
   <div class="re-main">
     <div class="re-left">
       <div class="re-prifile tac">
-        <img src="http://ow73fkxqs.bkt.clouddn.com/qjp_resume.jpg" alt="我的头像" class="re-pic">
+        <img src="./img/header.jpeg" alt="我的头像" class="re-pic">
         <div>
           <div class="re-name">齐建平</div>
           <div class="re-position">Web 前端工程师</div>
@@ -25,7 +25,9 @@
           <span class="re-icon re-icon-self"></span>
           <span class="re-theme">个人信息</span>
         </div>
-        <div class="re-content">打小对计算机比较感兴趣，加上个人喜欢钻研，对互联网又特别喜欢，认为一个一个的字母或数字来构建这个美好世界是可以的。<br>所以在大学期间靠自学学习前端开发方面的内容。现在已经有一年的工作经验，仍然对前端怀揣着满满的激情，相信还有更高的山等待攀爬。<br>个人性格属于比较活泼，幽默，聪明类型的，学习速度也挺快的。<br>前端基础不错，熟悉VUE框架，webpack使用经验。</div>
+        <div class="re-content">毕业于哈尔滨理工大学，毕业后一直呆在讯飞工作，工作的主要内容包括前期的给学校制作网站，到后来的前后端分离项目和不分离的项目；</br>前后端分离项目包括H5应用和pc端的应用，总体来说各个终端的项目都有涉及。做过的项目粗略估计有20个左右，到后期个人负责智慧校园前端业务线的项目。</br>
+          右侧介绍部分期间负责的主要的几个项目。
+        </div>
         <!-- 电话 -->
         <div class="re-tel">
           <span class="re-icons re-icon-tel"></span>
@@ -175,7 +177,7 @@
             <div class="clearfix">
               <div class="re-gray-btn fl">工作情况</div>
               <div class="re-detail">
-                主要做前后端分离的项目，大部分是由个人承担一个H5项目。主要使用vue、webpack等，对vue的生态系统（vue-router、vuex）等比较熟悉
+                主要做前后端分离的项目，大部分是由个人承担一个H5项目、pc端校园应用项目。主要使用vue、webpack等，对vue的生态系统（vue-router、vuex）等比较熟悉
             </div>
           </div>
           <div class="re-block">
@@ -189,7 +191,7 @@
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">实习情况</div>
-              <div class="re-detail">部门前后端分离的项目较少。主要负责 CMS 网站管理系统：切图，js、jQuery 实现简单交互、媒体查询实现响应式、嵌套 freemarker 模板实现功能等，基础锻炼的比较多</div>
+              <div class="re-detail">刚开始进入公司时候，用了两个月的时间进行切图，主要作品包括给国内知名学校制作的学校官网，比如北京四中等。而后主要负责前后端分离的项目，使用的主要框架是VUE</div>
             </div>
           </div>
         </div>
@@ -198,31 +200,32 @@
       <div class="re-r-box">
         <div class="re-top">
           <span class="re-icon re-icon-item"></span>
-          <span>项目经历</span>
+          <span>个人部分项目经验</span>
         </div>
         <div class="re-content">
           <div class="re-block">
             <div class="re-header clearfix">
-              <div class="fl">智慧校园 / 校园文明管理 (H5)</div>
-              <div class="re-date fr">2017/10 - 2017/11</div>
+              <div class="fl">智慧校园 / 场馆预约 (H5+pc)</div>
+              <div class="re-date fr">2018/8 - 2018/10</div>
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">项目简介</div>
               <div class="re-detail">
-                校园文明管理是H5项目，针对当前的中小学实现的一种对班级实现的一种功能。对全校的班级和学生实现量化的管理。项目主要使用vue2+vuex+vue-router实现，在手端实现兼容。
+                该项目依赖于vue2.0+element+fullCalendar+webpack+vuex+axios,实现的主要功能是针对学校做的一个方便教师预约和使用场馆的应用，通过在日历中通过周视图展现出来某个场馆的具体的预约信息，
+                即可以点击某天查看已有的预约信息，又可以新建预约信息。包括移动端和pc端。
               </div>
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">个人成长</div>
               <div class="re-detail">
-                <p>使用 vue2 + vue-router + vuex + webpack2 + ES6 等技术，结合公司内部 H5 组件库 maroon 进行开发，是第一次使用VUE2进行开发的项目。</p>
+                <p>使用 vue2 + vue-router + vuex + webpack2 + ES6 等技术，移动端结合公司内部 H5 组件库 maroon 进行开发，进一步巩固了自己的技术水平。</p>
               </div>
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">重点难点</div>
               <div class="re-detail">
-                <p>① 针对IOS端拍摄照片直接上传之后，会导致图片在手端显示旋转90度的问题，通过查阅资料，只有当上传照片时，选择拍摄才会出现此问题。解决方式：文件信息中包含图片的拍摄方式，在后台进行处理，会矫正图片的角度。</p>
-                <p>② 某个班级有一个剩余量化限值，而每个班级又有多个大的分数量化项，每个大量化项又分为多个小的分数量化项目。在对小的分数量化的时候，会影响班级的量化限值的改变。在同一个页面实现对量化小项的增删改，会直接或间接影响限值的改变。数值的绑定更新以及一系列复杂而精准的计算是解决问题的关键所在。</p>
+                <p>① 实现列表的拖拽排序：即点击鼠标可通过拖拽的方式对列表进行随意的改变顺序。</p>
+                <p>② 将数据插入显示到日历的周视图中是该项项目的重点：依赖于fullCalendar插件，查阅了大量的API，针对不同的状态，传入不同的值是实现该项功能的重点。</p>
               </div>
             </div>
             <div class="clearfix">
@@ -235,7 +238,7 @@
           <div class="re-block">
             <div class="re-header clearfix">
               <div class="fl">智慧校园 / 值班排版（H5）</div>
-              <div class="re-date fr">2017/12 - 2018/03</div>
+              <div class="re-date fr">2018/3 - 2018/5</div>
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">项目简介</div>
@@ -289,7 +292,7 @@
           <div class="re-block">
             <div class="re-header clearfix">
               <div class="fl">CMS 网站管理系统</div>
-              <div class="re-date fr">2015/06 - 2016/06</div>
+              <div class="re-date fr">2017/02 - 2017/09</div>
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">项目简介</div>
